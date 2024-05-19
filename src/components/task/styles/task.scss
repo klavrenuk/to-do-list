@@ -1,0 +1,20 @@
+$checkboxWidth: 30px;
+
+.task {
+  background: #fff;
+
+  &__grid {
+    grid-template-columns: $checkboxWidth calc(100% - $checkboxWidth);
+  }
+
+  &__name {
+    padding-bottom: .3rem;
+    color: #111;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &_description {
+    background: #CCCCCC;
+  }
+}

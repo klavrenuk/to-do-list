@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Dashboard from "@/pages/Dashboard";
+
 import AppAside from "./components/aside/AppAside";
 
 import './styles/app.scss';
@@ -12,7 +14,7 @@ function App() {
                     <AppAside />
 
                     <main className={'app__main'}>
-                        Main
+                        <Dashboard />
                     </main>
                 </div>
             </div>
