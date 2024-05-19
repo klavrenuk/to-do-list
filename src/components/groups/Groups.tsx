@@ -4,7 +4,7 @@ import Group from "./Group";
 
 const Groups = () => {
     return (
-        <div className={'aside-groups'}>
+        <div className={'groups'}>
             <Group />
         </div>
     )

@@ -1,0 +1,10 @@
+$asideWidth: 350px;
+
+.app {
+  background: rgba(204,204,204, .2);
+
+  &__container {
+    display: grid;
+    grid-template-columns: $asideWidth calc(100% - $asideWidth);
+  }
+}

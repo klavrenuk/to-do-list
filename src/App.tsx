@@ -2,15 +2,20 @@ import React from 'react';
 
 import AppAside from "./components/aside/AppAside";
 
+import './styles/app.scss';
 
 function App() {
     return (
         <div className="app">
-            <AppAside />
+            <div className={'container'}>
+                <div className={'app__container'}>
+                    <AppAside />
 
-            <main className={'app__main'}>
-
-            </main>
+                    <main className={'app__main'}>
+                        Main
+                    </main>
+                </div>
+            </div>
         </div>
     );
 }
