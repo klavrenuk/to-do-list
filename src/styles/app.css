@@ -1,0 +1,9 @@
+.app {
+  background: rgba(204, 204, 204, 0.2);
+}
+.app__container {
+  display: grid;
+  grid-template-columns: 350px calc(100% - 350px);
+}
+
+/*# sourceMappingURL=app.css.map */

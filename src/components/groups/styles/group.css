@@ -1,0 +1,10 @@
+.group-block {
+  grid-template-columns: calc(100% - 30px) 30px;
+}
+.group-block__name, .group-block__count {
+  color: #333333;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/*# sourceMappingURL=group.css.map */
